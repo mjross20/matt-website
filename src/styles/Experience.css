@@ -1,0 +1,72 @@
+.experience {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experience .aboutMe {
+    font-size: 60px;
+    justify-content: center;
+}
+
+.experienceList {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: normal start;
+}
+
+/* Experience Item Styling*/
+.experienceItem {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+/*
+.experienceItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+*/
+.experienceItem div {
+    border-top-left-radius: 15px;
+    width: 200px;
+    height: 200px;
+    background-position: normal start;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.experienceItem h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+.experienceItem .company {
+    margin-left: 20px;
+}
+.experienceItem .dates {
+    margin-left: 20px;
+    color:gray;
+}
+.experienceItem p {
+    margin-left: 20px;
+}
+
+/* For adjustings screen size on a 3 column grid to 2 or 1 columns */ 
+/* @media only screen and (max-width: 1300px) {
+    .experienceList {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .experienceList {
+        grid-template-columns: 1fr;
+    }
+} */

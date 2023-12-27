@@ -16,8 +16,8 @@ function Navbar() {
             <Link to ="/"><img src={Logo} alt = ""/> </Link> 
             <div className="hiddenLinks">
                 <Link to ="/"> Home </Link>
-                <Link to ="/about"> About </Link>
-                <Link to ="/experiences"> My Work </Link>
+                <Link to ="/experience"> Experience </Link>
+                <Link to ="/projects"> Projects </Link>
                 <Link to ="/contact"> Contact </Link>
                 <Link to ="/blog"> Blog </Link>
             </div>
@@ -25,8 +25,8 @@ function Navbar() {
 
         <div className="rightSide">
             <Link to ="/"> Home </Link>
-            <Link to ="/about"> About </Link>
-            <Link to ="/experiences"> My Work </Link>
+            <Link to ="/experience"> Experience </Link>
+            <Link to ="/projects"> Projects </Link>
             <Link to ="/contact"> Contact </Link>
             <Link to ="/blog"> Blog </Link>
             <button onClick={toggleNavBar}>
